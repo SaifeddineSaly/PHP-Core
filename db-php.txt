@@ -1,0 +1,32 @@
+===Database final-tp-php
+
+== Table structure for table entreprise
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id_client**//|int(11)|No|
+|nom_client|varchar(25)|No|
+|prenom_client|varchar(25)|No|
+|image_client|varchar(25)|No|
+|fichier_client|varchar(25)|No|
+|section_emp|varchar(20)|No|
+|id_emp|varchar(20)|No|
+== Dumping data for table entreprise
+
+|1|Mohamad|Hamoushhh|1.png|1.txt|Frontend|Ali123
+|2|Ali|Hamouchh|2.png|2.txt|Frontend|Hasan1235
+== Table structure for table login
+
+|------
+|Column|Type|Null|Default
+|------
+|//**username**//|varchar(10)|No|
+|password|varchar(15)|No|
+|mail|varchar(25)|No|
+|nombreAcce|int(11)|No|0
+== Dumping data for table login
+
+|Ali123|123456|abc@outlook.com|7
+|Hasan1235|1379|hhjj12@outlook.com|0
+|mohamad|12345|xyz@outlook.com|0
